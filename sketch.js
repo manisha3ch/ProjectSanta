@@ -245,7 +245,7 @@ function obsSnowball() {
     snowball = createSprite(610, 265, 10, 10);
     snowball.addAnimation("snowball_roll", imgSnowball);
     snowball.scale = 0.5;
-    snowball.velocityX = -4;
+    snowball.velocityX = -6;
     //snowball.setCollider("circle", -125, 0, 70);
     snowball.setCollider("rectangle", -160, 0, 475, 100);
     snowball.liftime = 300;
@@ -257,7 +257,7 @@ function obsSnowball() {
     star.addImage("snowball_roll", imgStar);
     star.visible = false;
     star.scale = 0.5;
-    star.velocityX = -4;
+    star.velocityX = -6;
     grpStar.add(star);
   }
 }
